@@ -2,6 +2,9 @@
 
 # this is to run fastp
 
+# Load module
+module load fastqc
+
 fatp \
 -i sample_R1.fastq.gz \
 -I sample_R2.fastq.gz \
@@ -10,4 +13,3 @@ fatp \
 --length_required 30 \
 --qualified_quality_phred 20
 
-dasdad
