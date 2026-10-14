@@ -1,5 +1,7 @@
 #! /bin/bash -1
 
+# this is to run fastp
+
 fatp \
 -i sample_R1.fastq.gz \
 -I sample_R2.fastq.gz \
