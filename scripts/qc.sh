@@ -9,3 +9,5 @@ fatp \
 -O sample_R2_trim.fastq.gz \
 --length_required 30 \
 --qualified_quality_phred 20
+
+dasdad
